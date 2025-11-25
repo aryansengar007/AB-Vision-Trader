@@ -36,7 +36,7 @@
 
 ## 🎯 Dashboard 
 
-![AB Vision Trader](./public/Dashboard_1.jpg)
+![AB Vision Trader](public/Dashboard_1.png)
 ![AB Vision Trader](./public/Dashboard_2.jpg)
 ![AB Vision Trader](./public/Dashboard_3.jpg)
 
