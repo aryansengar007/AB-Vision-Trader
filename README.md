@@ -34,7 +34,7 @@
 
 ---
 
-## 🎯 Dashboard 
+## 🌐 Dashboard 
 
 ![Dashboard_1](public/Dashboard_1.png)
 ![Dashboard_2](public/Dashboard_2.png)
