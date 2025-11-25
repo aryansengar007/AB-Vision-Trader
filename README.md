@@ -18,7 +18,7 @@
 ---
 
 ## 📋 Table of Contents
-
+- [Dashboard](#-dashboard)
 - [Overview](#-overview)
 - [Features](#-features)
 - [Tech Stack](#-tech-stack)
@@ -31,6 +31,14 @@
 - [Performance](#-performance)
 - [Contributing](#-contributing)
 - [License](#-license)
+
+---
+
+## 🎯 Dashboard 
+
+![Dashboard_1](./public/Dashboard_1.jpg)
+![Dashboard_2](./public/Dashboard_2.jpg)
+![Dashboard_3](./public/Dashboard_3.jpg)
 
 ---
 
