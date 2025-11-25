@@ -37,8 +37,8 @@
 ## 🎯 Dashboard 
 
 ![Dashboard_1](public/Dashboard_1.png)
-![Dashboard_2](public/Dashboard_2.jpg)
-![Dashboard_3](public/Dashboard_3.jpg)
+![Dashboard_2](public/Dashboard_2.png)
+![Dashboard_3](public/Dashboard_3.png)
 
 ---
 
