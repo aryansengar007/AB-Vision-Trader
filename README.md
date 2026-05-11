@@ -1,180 +1,353 @@
-# 🚀 AB Vision Trader
-
 <div align="center">
 
-![AB Vision Trader](./public/logo.jpg)
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!--                   ANIMATED WAVE HEADER                         -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
 
-**An AI-powered stock trading platform using Deep Q-Network (DQN) reinforcement learning**
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020b18,40:0a2540,80:0f4c75,100:1a7abf&height=220&section=header&text=AB%20Vision%20Trader&fontSize=56&fontColor=ffffff&fontAlignY=38&desc=DQN%20Reinforcement%20Learning%20%7C%20AI%20Stock%20Trading%20Platform&descSize=17&descAlignY=60&animation=fadeIn" width="100%"/>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.9.2-blue)](https://www.typescriptlang.org/)
-[![React](https://img.shields.io/badge/React-18.3.1-61dafb)](https://reactjs.org/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.9.1-red)](https://pytorch.org/)
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!--                  ANIMATED TYPING TAGLINE                       -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
 
-[Features](#-features) • [Demo](#-demo) • [Installation](#-installation) • [Usage](#-usage) • [Architecture](#-architecture) • [Contributing](#-contributing)
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=750&lines=Deep+Q-Network+AI+Trading+Agent+%F0%9F%A4%96;Train+%7C+Evaluate+%7C+Predict+on+Real+Stock+Data+%F0%9F%93%88;AAPL+%7C+MSFT+%7C+GOOGL+%7C+AMZN+%7C+NVDA+Support;React+%2B+TypeScript+%2B+PyTorch+%2B+Express;Live+Training+Logs+%7C+Equity+Curves+%7C+Sharpe+Ratio" alt="Typing SVG"/>
+
+<br/>
+
+<!-- CTA BUTTONS -->
+[![GitHub Repo](https://img.shields.io/badge/💻%20Source%20Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aryansengar007/AB-Vision-Trader)
+[![Report Bug](https://img.shields.io/badge/🐛%20Report%20Bug-Issues-ef4444?style=for-the-badge)](https://github.com/aryansengar007/AB-Vision-Trader/issues)
+[![Feature Request](https://img.shields.io/badge/💡%20Request%20Feature-Discussions-f59e0b?style=for-the-badge)](https://github.com/aryansengar007/AB-Vision-Trader/discussions)
+
+<br/>
+
+<!-- ANIMATED SKILL ICONS -->
+<img src="https://skillicons.dev/icons?i=react,ts,python,pytorch,nodejs&theme=dark&perline=5" />
+
+<br/><br/>
+
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.9.2-3178C6?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=flat-square&logo=react&logoColor=black)](https://reactjs.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.9.1-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![Vite](https://img.shields.io/badge/Vite-7.1.2-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.4.17-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](https://opensource.org/licenses/MIT)
 
 </div>
 
----
+<br/>
 
-## 📋 Table of Contents
-- [Dashboard](#-dashboard)
-- [Overview](#-overview)
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Architecture](#-architecture)
-- [Project Structure](#-project-structure)
-- [API Documentation](#-api-documentation)
-- [Training the Agent](#-training-the-agent)
-- [Performance](#-performance)
-- [Contributing](#-contributing)
-- [License](#-license)
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ WAVE DIVIDER ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,4,8,30&height=2" width="100%"/>
 
----
+<br/>
 
-## 🌐 Dashboard 
+## 📸 Dashboard
 
-![Dashboard_1](public/Dashboard_1.png)
-![Dashboard_2](public/Dashboard_2.png)
-![Dashboard_3](public/Dashboard_3.png)
+![Dashboard 1](public/Dashboard_1.png)
+![Dashboard 2](public/Dashboard_2.png)
+![Dashboard 3](public/Dashboard_3.png)
 
----
+<br/>
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ WAVE DIVIDER ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,4,8,30&height=2" width="100%"/>
+
+<br/>
 
 ## 🎯 Overview
 
-**AB Vision Trader** is a sophisticated algorithmic trading platform that leverages Deep Q-Network (DQN) reinforcement learning to make intelligent trading decisions. The system analyzes historical stock data, learns optimal trading strategies through trial and error, and provides real-time insights into portfolio performance.
+**AB Vision Trader** is a sophisticated algorithmic trading platform that leverages **Deep Q-Network (DQN)** reinforcement learning to make intelligent trading decisions. The system analyzes historical stock data, learns optimal trading strategies through trial and error, and provides real-time insights into portfolio performance.
 
-### Key Highlights
+<br/>
 
-- 🤖 **AI-Powered Trading**: Deep Q-Network (DQN) agent trained on historical stock data
-- 📊 **Real-Time Analytics**: Live performance metrics, equity curves, and Sharpe ratio calculations
-- 🎨 **Modern UI**: Beautiful, responsive dashboard built with React and TailwindCSS
-- 📈 **Multi-Stock Support**: Analyze and trade top stocks (AAPL, MSFT, GOOGL, AMZN, NVDA)
-- 🔄 **Live Training Logs**: Real-time streaming of training progress and episode rewards
-- 📉 **Risk Metrics**: Comprehensive drawdown analysis and volatility tracking
+<div align="center">
 
----
+| 🤖 AI Engine | 📊 Analytics | 🎨 Frontend | 📈 Coverage |
+|:---:|:---:|:---:|:---:|
+| DQN with experience replay | Live equity curves & Sharpe ratio | React + TailwindCSS | AAPL · MSFT · GOOGL · AMZN · NVDA |
+
+</div>
+
+<br/>
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ WAVE DIVIDER ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,4,8,30&height=2" width="100%"/>
+
+<br/>
 
 ## ✨ Features
 
-### 🎓 Training Module
+<br/>
 
-- **Deep Q-Network Implementation**: State-of-the-art DQN algorithm with experience replay
-- **Technical Indicators**: SMA (5, 10), volume averages, and return calculations
-- **Real-Time Monitoring**: Live episode rewards, training progress, and loss tracking
-- **Smart Auto-Scroll**: Interactive log viewer with user-controlled scrolling
-- **Configurable Episodes**: Adjustable training duration (default: 150 episodes)
+<details>
+<summary><strong>🎓 Training Module — click to expand</strong></summary>
+<br/>
 
-### 📊 Evaluation & Backtesting
+| Feature | Detail |
+|:---|:---|
+| Deep Q-Network Implementation | State-of-the-art DQN with experience replay |
+| Technical Indicators | SMA (5, 10), volume averages & return calculations |
+| Real-Time Monitoring | Live episode rewards, training progress & loss tracking |
+| Smart Auto-Scroll | Interactive log viewer with user-controlled scrolling |
+| Configurable Episodes | Adjustable training duration (default: 150 episodes) |
 
-- **Historical Performance**: Backtest on 5 years of cleaned stock data
-- **Action Timeline**: Visualize buy/sell/hold decisions over time
-- **Equity Curve**: Track portfolio value throughout trading period
-- **Drawdown Analysis**: Maximum drawdown and recovery metrics
-- **Win Rate**: Calculate successful vs unsuccessful trades
+</details>
 
-### 🔮 Predictions
+<details>
+<summary><strong>📊 Evaluation & Backtesting — click to expand</strong></summary>
+<br/>
 
-- **Buy/Sell Signals**: AI-generated trading recommendations
-- **Confidence Scores**: Risk-adjusted decision confidence
-- **Price Movements**: Historical price tracking with action overlays
-- **Portfolio Impact**: Calculate expected gains/losses per action
+| Feature | Detail |
+|:---|:---|
+| Historical Performance | Backtest on 5 years of cleaned stock data |
+| Action Timeline | Visualize buy/sell/hold decisions over time |
+| Equity Curve | Track portfolio value throughout trading period |
+| Drawdown Analysis | Maximum drawdown & recovery metrics |
+| Win Rate | Calculate successful vs unsuccessful trades |
 
-### 📈 Dashboard
+</details>
 
-- **Portfolio Overview**: Current value, total returns, and ROI
-- **Performance Metrics**: Sharpe ratio, volatility, max drawdown
-- **Episode Rewards Chart**: Training progress visualization
-- **Quick Actions**: Direct access to training and evaluation
-- **Multi-Ticker Support**: Switch between different stocks
+<details>
+<summary><strong>🔮 Predictions — click to expand</strong></summary>
+<br/>
 
----
+| Feature | Detail |
+|:---|:---|
+| Buy/Sell Signals | AI-generated trading recommendations |
+| Confidence Scores | Risk-adjusted decision confidence |
+| Price Movements | Historical price tracking with action overlays |
+| Portfolio Impact | Calculate expected gains/losses per action |
 
-## 🛠 Tech Stack
+</details>
 
-### Frontend
+<details>
+<summary><strong>📈 Dashboard — click to expand</strong></summary>
+<br/>
 
-- **Framework**: React 18.3.1 with TypeScript 5.9.2
-- **Build Tool**: Vite 7.1.2 for lightning-fast HMR
-- **Routing**: React Router 6 (SPA mode)
-- **Styling**: TailwindCSS 3.4.17 + Radix UI primitives
-- **State Management**: Zustand 5.0.8
-- **Charts**: Recharts 2.12.7 for data visualization
-- **Animations**: Framer Motion 12.23.12
-- **HTTP Client**: Axios 1.13.2
+| Feature | Detail |
+|:---|:---|
+| Portfolio Overview | Current value, total returns & ROI |
+| Performance Metrics | Sharpe ratio, volatility, max drawdown |
+| Episode Rewards Chart | Training progress visualization |
+| Multi-Ticker Support | Switch between different stocks instantly |
 
-### Backend
+</details>
 
-- **Server**: Express 5.1.0 with TypeScript
-- **API**: RESTful endpoints + Server-Sent Events (SSE)
-- **Python Integration**: Child process spawning for ML agent
-- **Environment**: Node.js with ES Modules
+<br/>
 
-### Machine Learning
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ WAVE DIVIDER ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,4,8,30&height=2" width="100%"/>
 
-- **Framework**: PyTorch 2.9.1 (CPU)
-- **Algorithm**: Deep Q-Network (DQN) with experience replay
-- **Data Processing**: Pandas 2.3.3, NumPy 2.3.5
-- **Python**: 3.12.4 with virtual environment
+<br/>
 
-### DevOps
+## 🛠️ Tech Stack
 
-- **Package Manager**: pnpm (fast, efficient)
-- **Testing**: Vitest for unit tests
-- **Version Control**: Git with GitHub
-- **Deployment**: Netlify/Vercel ready
+<br/>
 
----
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=react,ts,python,pytorch,nodejs,vite,tailwind&theme=dark" />
+
+</div>
+
+<br/>
+
+<details>
+<summary><strong>🖥️ Frontend — click to expand</strong></summary>
+<br/>
+
+| Technology | Version | Purpose |
+|:---|:---:|:---|
+| React | 18.3.1 | Component-based UI framework |
+| TypeScript | 5.9.2 | Type-safe development |
+| Vite | 7.1.2 | Lightning-fast HMR build tool |
+| React Router | 6 | SPA client-side routing |
+| TailwindCSS | 3.4.17 | Utility-first styling |
+| Radix UI | — | Accessible UI primitives |
+| Zustand | 5.0.8 | Lightweight state management |
+| Recharts | 2.12.7 | Data visualization charts |
+| Framer Motion | 12.23.12 | Smooth UI animations |
+| Axios | 1.13.2 | HTTP client |
+
+</details>
+
+<details>
+<summary><strong>⚙️ Backend — click to expand</strong></summary>
+<br/>
+
+| Technology | Version | Purpose |
+|:---|:---:|:---|
+| Express | 5.1.0 | REST API + SSE server |
+| TypeScript | — | Type-safe backend code |
+| Node.js | — | Runtime + Python process spawning |
+
+</details>
+
+<details>
+<summary><strong>🤖 Machine Learning — click to expand</strong></summary>
+<br/>
+
+| Technology | Version | Purpose |
+|:---|:---:|:---|
+| PyTorch | 2.9.1 (CPU) | DQN model training & inference |
+| Pandas | 2.3.3 | Data loading & processing |
+| NumPy | 2.3.5 | Numerical computations |
+| Python | 3.12.4 | ML runtime environment |
+
+</details>
+
+<br/>
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ WAVE DIVIDER ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,4,8,30&height=2" width="100%"/>
+
+<br/>
+
+## 🏗️ Architecture
+
+### System Design
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                   Frontend (React SPA)                      │
+│   Dashboard  ·  Train  ·  Evaluate  ·  Predictions         │
+│                    Axios HTTP Client                        │
+└──────────────────────────┬──────────────────────────────────┘
+                           │
+┌──────────────────────────┼──────────────────────────────────┐
+│                  Express REST API                           │
+│  /api/training/start  ·  /api/training/logs (SSE)          │
+│  /api/evaluation/run  ·  /api/predictions                  │
+│              Python Manager (pyManager.ts)                  │
+└──────────────────────────┬──────────────────────────────────┘
+                           │
+┌──────────────────────────┼──────────────────────────────────┐
+│            Python DQN Trading Agent                         │
+│  DQN Neural Network  ·  Experience Replay Buffer           │
+│  Environment Simulator  ·  Technical Indicators            │
+│  Training Loop  ·  ε-Greedy Exploration                    │
+│         stock_details_5_years_cleaned.csv                  │
+└─────────────────────────────────────────────────────────────┘
+```
+
+### DQN Algorithm Flow
+
+| Step | Process | Detail |
+|:---:|:---|:---|
+| 1 | **State Representation** | Price history (30d) + SMA + volume indicators |
+| 2 | **Action Space** | Hold (0) · Buy (1) · Sell (2) |
+| 3 | **Reward Function** | Portfolio value change minus transaction costs |
+| 4 | **Experience Replay** | Store transitions, sample random batches |
+| 5 | **Target Network** | Periodic updates for stable learning |
+| 6 | **ε-Greedy Exploration** | Balance exploration vs exploitation |
+
+<br/>
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ WAVE DIVIDER ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,4,8,30&height=2" width="100%"/>
+
+<br/>
+
+## 📁 Project Structure
+
+<details>
+<summary><strong>View full structure — click to expand</strong></summary>
+<br/>
+
+```
+AB-Vision-Trader/
+│
+├── 📂 client/                        ← React frontend
+│   ├── 📂 pages/
+│   │   ├── Dashboard.tsx             ← Portfolio overview
+│   │   ├── TrainAgent.tsx            ← Training interface
+│   │   ├── EvaluateAgent.tsx         ← Backtesting results
+│   │   ├── Predictions.tsx           ← Trading signals
+│   │   └── Settings.tsx              ← Configuration
+│   ├── 📂 components/
+│   │   ├── Layout.tsx                ← Main layout wrapper
+│   │   └── ui/                       ← Radix UI primitives
+│   ├── 📂 services/
+│   │   └── api.ts                    ← HTTP request handlers
+│   ├── 📂 store/
+│   │   └── useStore.ts               ← Zustand global state
+│   ├── App.tsx                       ← App entry + routing
+│   └── global.css                    ← TailwindCSS styles
+│
+├── 📂 server/                        ← Express backend
+│   ├── index.ts                      ← Server setup + middleware
+│   ├── pyManager.ts                  ← Python process manager
+│   └── 📂 routes/
+│       ├── api.ts                    ← Training/evaluation endpoints
+│       └── demo.ts                   ← Demo endpoint
+│
+├── 📂 shared/
+│   └── api.ts                        ← Shared TypeScript interfaces
+│
+├── 📄 dqn_trading_top5.py            ← DQN trading agent (Python)
+├── 📄 stock_details_5_years_cleaned.csv  ← Training data
+├── 📄 package.json
+├── 📄 tsconfig.json
+├── 📄 tailwind.config.ts
+└── 📄 vite.config.ts
+```
+
+</details>
+
+<br/>
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ WAVE DIVIDER ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,4,8,30&height=2" width="100%"/>
+
+<br/>
 
 ## 📦 Installation
 
 ### Prerequisites
 
-- **Node.js**: v18+ ([Download](https://nodejs.org/))
-- **pnpm**: v8+ (`npm install -g pnpm`)
-- **Python**: 3.11+ ([Download](https://www.python.org/downloads/))
-- **Git**: For version control
+| Requirement | Version | Link |
+|:---:|:---:|:---:|
+| Node.js | v18+ | [nodejs.org](https://nodejs.org/) |
+| pnpm | v8+ | `npm install -g pnpm` |
+| Python | 3.11+ | [python.org](https://www.python.org/downloads/) |
+| Git | — | For version control |
 
-### Step 1: Clone the Repository
+**1. Clone the repository**
 
 ```bash
 git clone https://github.com/Nezeon/AB-Vision-Trader.git
 cd AB-Vision-Trader
 ```
 
-### Step 2: Install Node Dependencies
+**2. Install Node dependencies**
 
 ```bash
 pnpm install
 ```
 
-### Step 3: Set Up Python Environment
+**3. Set up Python virtual environment**
 
 ```bash
-# Create virtual environment
 python -m venv .venv
 
-# Activate virtual environment
 # Windows PowerShell:
 .venv\Scripts\Activate.ps1
 
 # Windows CMD:
 .venv\Scripts\activate.bat
 
-# macOS/Linux:
+# macOS / Linux:
 source .venv/bin/activate
 
-# Install Python dependencies
 pip install torch numpy pandas
 ```
 
-> **Windows Users**: If you encounter PyTorch DLL errors, install [Microsoft Visual C++ Redistributable](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+> ⚠️ **Windows users**: If you encounter PyTorch DLL errors, install [Microsoft Visual C++ Redistributable](https://aka.ms/vs/17/release/vc_redist.x64.exe)
 
-### Step 4: Environment Variables (Optional)
+**4. Environment variables** *(optional)*
 
-Create a `.env` file in the root directory:
+Create a `.env` file in the root:
 
 ```env
 MAX_EPISODES=150
@@ -183,198 +356,129 @@ DATA_DIR=yahoo_data
 DATA_FILE=stock_details_5_years_cleaned.csv
 ```
 
----
+<br/>
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ WAVE DIVIDER ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,4,8,30&height=2" width="100%"/>
+
+<br/>
 
 ## 🚀 Usage
 
-### Development Mode
-
-Start the development server with hot reload:
+**Development mode**
 
 ```bash
 pnpm dev
 ```
+> Opens at `http://localhost:8080` with hot reload.
 
-The application will open at `http://localhost:8080`
-
-### Production Build
+**Production build**
 
 ```bash
-# Build frontend and backend
 pnpm build
-
-# Start production server
 pnpm start
 ```
 
-### Running Tests
+**Run tests**
 
 ```bash
 pnpm test
 ```
 
----
+<br/>
 
-## 🏗 Architecture
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ WAVE DIVIDER ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,4,8,30&height=2" width="100%"/>
 
-### System Design
+<br/>
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                     Frontend (React SPA)                    │
-│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐   │
-│  │Dashboard │  │  Train   │  │ Evaluate │  │Predictions│   │
-│  └────┬─────┘  └────┬─────┘  └────┬─────┘  └────┬─────┘   │
-│       │             │              │              │          │
-│       └─────────────┴──────────────┴──────────────┘          │
-│                          │                                   │
-│                     Axios HTTP Client                        │
-└──────────────────────────┼──────────────────────────────────┘
-                           │
-┌──────────────────────────┼──────────────────────────────────┐
-│                   Express REST API                          │
-│  ┌────────────────────────────────────────────────────┐     │
-│  │  /api/training/start  │  /api/training/status      │     │
-│  │  /api/training/logs   │  /api/evaluation/run       │     │
-│  │  /api/predictions     │  /api/actions-timeline     │     │
-│  └────────────────────────────────────────────────────┘     │
-│                          │                                   │
-│                   Python Manager (pyManager.ts)             │
-└──────────────────────────┼──────────────────────────────────┘
-                           │
-┌──────────────────────────┼──────────────────────────────────┐
-│              Python DQN Trading Agent                       │
-│  ┌────────────────────────────────────────────────────┐     │
-│  │  DQN Neural Network    │  Experience Replay Buffer │     │
-│  │  Environment Simulator │  Technical Indicators      │     │
-│  │  Training Loop         │  Action Selection (ε-greedy)│   │
-│  └────────────────────────────────────────────────────┘     │
-│                          │                                   │
-│              stock_details_5_years_cleaned.csv              │
-└─────────────────────────────────────────────────────────────┘
-```
+## 🎓 Training the Agent
 
-### DQN Algorithm Flow
+### DQN Training Parameters
 
-1. **State Representation**: Price history + technical indicators (SMA, volume)
-2. **Action Space**: Hold (0), Buy (1), Sell (2)
-3. **Reward Function**: Portfolio value change - transaction costs
-4. **Experience Replay**: Store transitions, sample random batches
-5. **Target Network**: Periodic updates for stable learning
-6. **ε-Greedy Exploration**: Balance exploration vs exploitation
+| Parameter | Default | Description |
+|:---:|:---:|:---|
+| `MAX_EPISODES` | 150 | Number of training episodes |
+| `WINDOW_SIZE` | 30 | Days of price history per state |
+| `START_CASH` | $10,000 | Initial portfolio value |
+| `GAMMA` | 0.99 | Discount factor |
+| `LEARNING_RATE` | 1e-4 | Optimizer learning rate |
+| `BATCH_SIZE` | 64 | Experience replay batch size |
+| `EPS_START` | 1.0 | Initial exploration rate |
+| `EPS_END` | 0.05 | Minimum exploration rate |
 
----
+### Training Tips
 
-## 📁 Project Structure
+- **Start Small** — Begin with 50 episodes to verify setup
+- **Monitor Loss** — Check if loss decreases over time
+- **Check Rewards** — Episode rewards should trend upward
+- **Evaluate Often** — Run backtesting after major training milestones
+- **Tune Hyperparameters** — Adjust learning rate if training is unstable
 
-```
-AB-Vision-Trader/
-├── client/                      # React frontend
-│   ├── pages/                   # Route components
-│   │   ├── Dashboard.tsx        # Portfolio overview
-│   │   ├── TrainAgent.tsx       # Training interface
-│   │   ├── EvaluateAgent.tsx    # Backtesting results
-│   │   ├── Predictions.tsx      # Trading signals
-│   │   └── Settings.tsx         # Configuration
-│   ├── components/              # Reusable UI components
-│   │   ├── Layout.tsx           # Main layout wrapper
-│   │   └── ui/                  # Radix UI primitives
-│   ├── services/                # API client functions
-│   │   └── api.ts               # HTTP request handlers
-│   ├── store/                   # State management
-│   │   └── useStore.ts          # Zustand store
-│   ├── App.tsx                  # App entry + routing
-│   └── global.css               # TailwindCSS styles
-│
-├── server/                      # Express backend
-│   ├── index.ts                 # Server setup + middleware
-│   ├── pyManager.ts             # Python process manager
-│   └── routes/                  # API route handlers
-│       ├── api.ts               # Training/evaluation endpoints
-│       └── demo.ts              # Demo endpoint
-│
-├── shared/                      # Shared TypeScript types
-│   └── api.ts                   # API interfaces
-│
-├── dqn_trading_top5.py         # DQN trading agent (Python)
-├── stock_details_5_years_cleaned.csv  # Training data
-├── logo/                        # Brand assets
-│   └── logo.jpg                 # Application logo
-├── public/                      # Static assets
-│   └── logo.jpg                 # Favicon
-│
-├── package.json                 # Node dependencies
-├── tsconfig.json                # TypeScript configuration
-├── tailwind.config.ts           # TailwindCSS settings
-├── vite.config.ts               # Vite build config
-└── README.md                    # This file
-```
+<br/>
 
----
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ WAVE DIVIDER ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,4,8,30&height=2" width="100%"/>
+
+<br/>
+
+## 📊 Performance
+
+### Sample Results — AAPL
+
+<div align="center">
+
+| Strategy | Return | Sharpe Ratio | Max Drawdown |
+|:---:|:---:|:---:|:---:|
+| 🥇 **AB Vision Trader** | **+25.4%** | **1.45** | **-12.3%** |
+| 📈 Buy & Hold | +18.2% | 1.12 | -15.8% |
+| 🎲 Random Trading | -8.5% | -0.32 | -25.1% |
+
+</div>
+
+> ⚠️ **Disclaimer**: Past performance does not guarantee future results. This platform is for **educational purposes only** and does not constitute financial advice.
+
+<br/>
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ WAVE DIVIDER ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,4,8,30&height=2" width="100%"/>
+
+<br/>
 
 ## 🔌 API Documentation
 
-### Training Endpoints
+<details>
+<summary><strong>Training Endpoints — click to expand</strong></summary>
+<br/>
 
-#### `POST /api/training/start`
-
-Start training the DQN agent
-
-**Request Body:**
+**`POST /api/training/start`** — Start training the DQN agent
 
 ```json
-{
-  "ticker": "AAPL",
-  "episodes": 150
-}
+// Request
+{ "ticker": "AAPL", "episodes": 150 }
+
+// Response
+{ "message": "Training started", "ticker": "AAPL" }
 ```
 
-**Response:**
+**`GET /api/training/status`** — Get current training status
 
 ```json
-{
-  "message": "Training started",
-  "ticker": "AAPL"
-}
+{ "isTraining": true, "ticker": "AAPL", "progress": 45.5 }
 ```
 
-#### `GET /api/training/status`
+**`GET /api/training/logs`** — SSE stream for real-time training logs
 
-Get current training status
+</details>
 
-**Response:**
+<details>
+<summary><strong>Evaluation & Prediction Endpoints — click to expand</strong></summary>
+<br/>
 
-```json
-{
-  "isTraining": true,
-  "ticker": "AAPL",
-  "progress": 45.5
-}
-```
-
-#### `GET /api/training/logs`
-
-Server-Sent Events stream for real-time logs
-
-**Response:** Event stream of training logs
-
-### Evaluation Endpoints
-
-#### `POST /api/evaluation/run`
-
-Run backtesting evaluation
-
-**Request Body:**
+**`POST /api/evaluation/run`** — Run backtesting
 
 ```json
-{
-  "ticker": "AAPL"
-}
-```
-
-**Response:**
-
-```json
+// Response
 {
   "finalPortfolioValue": 12500.45,
   "totalReturn": 0.25,
@@ -384,206 +488,115 @@ Run backtesting evaluation
 }
 ```
 
-### Prediction Endpoints
-
-#### `GET /api/predictions?ticker=AAPL`
-
-Get AI-generated trading predictions
-
-**Response:**
+**`GET /api/predictions?ticker=AAPL`** — AI trading predictions
 
 ```json
 {
   "predictions": [
-    {
-      "date": "2025-01-15",
-      "action": "buy",
-      "confidence": 0.85,
-      "expectedReturn": 0.03
-    }
+    { "date": "2025-01-15", "action": "buy", "confidence": 0.85, "expectedReturn": 0.03 }
   ]
 }
 ```
 
-#### `GET /api/actions-timeline?ticker=AAPL`
+**`GET /api/actions-timeline?ticker=AAPL`** — Historical action timeline
 
-Get historical action timeline
+</details>
 
-**Response:**
+<br/>
 
-```json
-{
-  "actions": [
-    {
-      "date": "2025-01-10",
-      "action": 1,
-      "price": 185.5,
-      "portfolioValue": 11200.3
-    }
-  ]
-}
-```
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ WAVE DIVIDER ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,4,8,30&height=2" width="100%"/>
 
----
+<br/>
 
-## 🎓 Training the Agent
+## 🔧 Troubleshooting
 
-### How DQN Works
+<details>
+<summary><strong>Common Issues — click to expand</strong></summary>
+<br/>
 
-The Deep Q-Network learns to maximize portfolio value through:
+**PyTorch DLL Error (Windows)**
+> Install [Microsoft Visual C++ Redistributable](https://aka.ms/vs/17/release/vc_redist.x64.exe)
 
-1. **Observation**: Current price window (30 days) + technical indicators
-2. **Decision**: Choose action (Hold/Buy/Sell) using Q-network
-3. **Execution**: Simulate action in environment
-4. **Feedback**: Calculate reward (profit/loss - costs)
-5. **Learning**: Update Q-network to improve future decisions
+**Training Logs Not Updating**
+> Ensure Python venv is activated · Check `server/pyManager.ts` detects correct Python path · Verify `.venv/Scripts/python.exe` exists
 
-### Training Parameters
-
-| Parameter       | Default | Description                  |
-| --------------- | ------- | ---------------------------- |
-| `MAX_EPISODES`  | 150     | Number of training episodes  |
-| `WINDOW_SIZE`   | 30      | Days of price history        |
-| `START_CASH`    | $10,000 | Initial portfolio value      |
-| `GAMMA`         | 0.99    | Discount factor              |
-| `LEARNING_RATE` | 1e-4    | Optimizer learning rate      |
-| `BATCH_SIZE`    | 64      | Experience replay batch size |
-| `EPS_START`     | 1.0     | Initial exploration rate     |
-| `EPS_END`       | 0.05    | Minimum exploration rate     |
-
-### Training Tips
-
-- **Start Small**: Begin with 50 episodes to verify setup
-- **Monitor Loss**: Check if loss decreases over time
-- **Check Rewards**: Episode rewards should trend upward
-- **Evaluate Frequently**: Run backtesting after major training
-- **Tune Hyperparameters**: Adjust learning rate if unstable
-
----
-
-## 📊 Performance
-
-### Sample Results (AAPL)
-
-- **Total Return**: +25.4% over test period
-- **Sharpe Ratio**: 1.45 (good risk-adjusted returns)
-- **Max Drawdown**: -12.3% (acceptable risk)
-- **Win Rate**: 58% (positive expectancy)
-
-### Benchmark Comparison
-
-| Strategy         | Return | Sharpe | Max DD |
-| ---------------- | ------ | ------ | ------ |
-| AB Vision Trader | +25.4% | 1.45   | -12.3% |
-| Buy & Hold       | +18.2% | 1.12   | -15.8% |
-| Random Trading   | -8.5%  | -0.32  | -25.1% |
-
-> **Disclaimer**: Past performance does not guarantee future results. This is for educational purposes only.
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! Here's how you can help:
-
-### Reporting Bugs
-
-1. Check existing issues first
-2. Create detailed bug report with:
-   - Steps to reproduce
-   - Expected vs actual behavior
-   - Screenshots/logs
-   - Environment details
-
-### Feature Requests
-
-1. Open an issue with `[Feature]` prefix
-2. Describe use case and benefits
-3. Propose implementation approach
-
-### Pull Requests
-
-1. Fork the repository
-2. Create feature branch: `git checkout -b feature/amazing-feature`
-3. Commit changes: `git commit -m 'Add amazing feature'`
-4. Push to branch: `git push origin feature/amazing-feature`
-5. Open Pull Request with detailed description
-
-### Development Guidelines
-
-- Follow TypeScript best practices
-- Maintain existing code style
-- Add tests for new features
-- Update documentation
-- Keep commits atomic and descriptive
-
----
-
-## 🐛 Troubleshooting
-
-### PyTorch DLL Error (Windows)
-
-**Error**: `OSError: [WinError 1114] A dynamic link library (DLL) initialization routine failed`
-
-**Solution**: Install [Microsoft Visual C++ Redistributable](https://aka.ms/vs/17/release/vc_redist.x64.exe)
-
-### Training Logs Not Updating
-
-- Ensure Python virtual environment is activated
-- Check `server/pyManager.ts` detects correct Python path
-- Verify `.venv/Scripts/python.exe` exists
-
-### Port Already in Use
-
+**Port Already In Use**
 ```bash
 # Windows
 netstat -ano | findstr :8080
 taskkill /PID <PID> /F
 
-# macOS/Linux
+# macOS / Linux
 lsof -ti:8080 | xargs kill -9
 ```
 
-### Build Errors
-
+**Build Errors**
 ```bash
-# Clear caches and reinstall
 rm -rf node_modules pnpm-lock.yaml dist
-pnpm install
-pnpm build
+pnpm install && pnpm build
 ```
 
----
+</details>
 
-## 📄 License
+<br/>
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ WAVE DIVIDER ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,4,8,30&height=2" width="100%"/>
 
----
+<br/>
 
-## 🙏 Acknowledgments
+## 🤝 Contributing
 
-- **PyTorch Team**: For the excellent deep learning framework
-- **Radix UI**: For accessible, unstyled components
-- **Vite**: For blazing-fast build tooling
-- **TailwindCSS**: For utility-first styling
-- **React Router**: For seamless SPA routing
+We welcome contributions! Here's how:
 
----
+**Reporting Bugs** — Open an issue with reproduction steps, expected vs actual behavior, and environment details.
 
-## 📞 Contact & Support
+**Feature Requests** — Open an issue with `[Feature]` prefix describing the use case and proposed approach.
 
-- **GitHub Issues**: [Report bugs or request features](https://github.com/aryansengar007/AB-Vision-Trader/issues)
-- **Discussions**: [Ask questions and share ideas](https://github.com/aryansengar007/AB-Vision-Trader/discussions)
+**Pull Requests**
 
----
+```bash
+git checkout -b feature/amazing-feature
+git commit -m 'Add amazing feature'
+git push origin feature/amazing-feature
+# → Open Pull Request with detailed description
+```
+
+> Follow TypeScript best practices · Maintain existing code style · Add tests for new features · Keep commits atomic and descriptive.
+
+<br/>
+
+<!-- ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ WAVE DIVIDER ━━━━━━━━━━━━━━━━━━━━━━━━━━━━ -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=0,2,4,8,30&height=2" width="100%"/>
+
+<br/>
+
+## 🙏 Acknowledgements
+
+- **PyTorch Team** — For the excellent deep learning framework
+- **Radix UI** — For accessible, unstyled UI components
+- **Vite** — For blazing-fast build tooling
+- **TailwindCSS** — For utility-first styling
+- **React Router** — For seamless SPA routing
+
+<br/>
+
+<!-- ╔══════════════════════════════════════════════════════════════╗ -->
+<!--                   ANIMATED WAVE FOOTER                         -->
+<!-- ╚══════════════════════════════════════════════════════════════╝ -->
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020b18,40:0a2540,80:0f4c75,100:1a7abf&height=130&section=footer&animation=fadeIn" width="100%"/>
 
 <div align="center">
 
 **Built with ❤️ by the AB Vision Team**
 
-⭐ Star us on GitHub if you find this project useful!
+[![Report Bug](https://img.shields.io/badge/🐛%20Report%20Bug-Issues-ef4444?style=flat-square)](https://github.com/aryansengar007/AB-Vision-Trader/issues)
+[![Request Feature](https://img.shields.io/badge/💡%20Request%20Feature-Discussions-f59e0b?style=flat-square)](https://github.com/aryansengar007/AB-Vision-Trader/discussions)
 
-[Report Bug](https://github.com/aryansengar007/AB-Vision-Trader/issues) • [Request Feature](https://github.com/aryansengar007/AB-Vision-Trader/issues)
+*If you found this project useful, consider leaving a* ⭐ *— it means a lot!*
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](https://opensource.org/licenses/MIT)
 
 </div>
